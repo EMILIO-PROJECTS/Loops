@@ -1,0 +1,19 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+
+int main() {
+
+    system ("cls");
+
+    for (unsigned long int i = 0; i < 10; i++) {
+        cout << "I love C++" << endl;
+    }
+
+    cout << sizeof(unsigned long int) << endl;
+    cout << sizeof(size_t) << endl;
+
+
+}

@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+
+    system ("cls");
+
+    int limit = -55;
+
+    for (int i = 100; i >= limit; i--){
+        cout << "I love C++, i: "<< i << endl;
+    }
+
+
+
+}

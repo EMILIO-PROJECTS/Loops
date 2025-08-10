@@ -1,0 +1,22 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+
+int main() {
+
+    system("cls");
+
+    for (int i = 0; i < 5; i++) {
+        for (int j = -55; j < 0; j++) {
+            for (int k = 0; k < 2; k++) {
+                cout << "i: " << i << ", j: " << j << ", k: " << k << endl;
+            }
+        } // 5 * 55 * 2 = 550 iterations will be done
+    }
+
+
+    
+
+}

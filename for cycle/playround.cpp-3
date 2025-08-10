@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+
+    system ("cls");
+
+    for (int i = 1; i <= 5; i++){
+        cout << "I love C++, i: "<< i << endl;
+    }
+
+    {
+        cout << "I love C++, i: "<< 1 << endl;
+    }
+
+    {
+        cout << "I love C++, i: "<< 2 << endl;
+    }
+
+    {
+        cout << "I love C++, i: "<< 3 << endl;
+    }
+
+    {
+        cout << "I love C++, i: "<< 4 << endl;
+    }
+
+    {
+        cout << "I love C++, i: "<< 5 << endl;
+    }
+}

@@ -1,0 +1,19 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+
+int main() {
+
+    system ("cls");
+
+    int limit = 100;
+
+    for (int i = 1; i <= limit; i = pow(i, 2)) {
+        cout << "I love C++, i: "<< i << endl;
+    }
+
+
+    
+}

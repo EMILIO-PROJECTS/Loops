@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+
+    system("cls");
+
+    int y = 5;
+    do {
+        cout << y << ' ';
+        y--;
+    } while (y > 0);
+    cout << endl;
+
+}

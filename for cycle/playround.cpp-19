@@ -1,0 +1,18 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+
+int main() {
+
+    system ("cls");
+
+    for(int i = 0; i < 10 ; ++i) {
+        cout << i << " : I love C++" << endl;
+    }
+
+    // cout << "i : " << i << endl;    //  Compiler error : i is not in scope
+
+
+}

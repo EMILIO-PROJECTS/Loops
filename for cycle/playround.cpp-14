@@ -1,0 +1,20 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+
+int main() {
+
+    system ("cls");
+
+    int i = 0;
+
+    for (i; i < 10; i++) {
+        cout << "i: " << i << endl;
+    }
+     
+
+    cout << i << endl;
+
+}

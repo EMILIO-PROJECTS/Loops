@@ -1,0 +1,25 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+
+int main() {
+
+    system ("cls");
+
+    for (unsigned long int i = 0; i < 10; i++) {
+        cout << "I love C++" << endl;
+    }
+
+    //same way as first one
+    for (size_t i(0); i < 10; i++) {
+        cout << i << " : I love C++" << endl;
+    }
+
+    //or like this
+    for (size_t i = 0; i < 10; i++) {
+        cout << "I love C++" << endl;
+    }
+
+}

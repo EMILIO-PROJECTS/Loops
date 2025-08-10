@@ -1,0 +1,18 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+
+int main() {
+
+    system("cls");
+
+
+    while (true) {
+        cout << "Hello World" << endl;
+    }
+
+    cout << endl;
+
+}
